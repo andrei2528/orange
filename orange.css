@@ -1,0 +1,102 @@
+main {
+    position: relative;
+    top: 150px;
+}
+
+body {
+    background-color: black;
+    color: orange;
+    font-family: "Readex Pro";
+    text-align: center;
+}
+
+.contact {
+    color: black;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    background-color: #D68800;
+    width: 100%;
+    opacity: 65%;
+}
+
+.header img {
+    width: 5%;
+    height: 10%;
+    display: inline-block;
+}
+
+.header li {
+    width: 100%;
+}
+
+.misiune {
+    top: 100px;
+}
+
+.misiune h1 {
+    background-image: url("https://lh3.googleusercontent.com/proxy/2a7iu2aRo3LpdHMJF_doDrJKjfMecdYIqiy1Hh7uRyhOb7NZChicnB_5TehVqQfLPooCzhusS3hwtoi_8Tw2bW_7QlJuBbHs-gdqhDAkqsE-srigKabCLw");
+    border: 5px solid orange;
+    padding: 100px;
+    font-size: 48px;
+    color: #D66F00;
+}
+
+.semnal {
+    color: #043E8F;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.abonament {
+    color: #043E8F;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Cambria"
+}
+
+.nr1 {
+    color: #043E8F;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "sans-serif";
+}
+
+.oferte h2 {
+    font-size: 60px;
+}
+
+.oferte {
+    background-image: url("https://medijobs.ro/wp-content/uploads/2019/12/sarbatori-fericite.png");
+    padding: 100px;
+    padding-bottom: 300px;
+    color: #ff8400;
+}
+
+.reducere {
+    font-size: 120px;
+    color: aliceblue
+}
+
+.telefon h2 {
+    color: #FF1800;
+}
+
+button {
+    border: 3px solid orange;
+    color: #043E8F;
+    padding: 20px;
+    font-size: 36px;
+    margin: 50px 100px;
+    border-radius: 20px;
+    font-weight: 400;
+    background-color: black;
+}
+
+button:hover {
+    background-color: #043E8F;
+    color: grey;
+    cursor: pointer;
+}
